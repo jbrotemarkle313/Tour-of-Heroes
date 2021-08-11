@@ -1,0 +1,47 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#login-div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+label {
+    font-size: 200%;
+}
+
+input[type=text] {
+    width: 100%;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+input[type=submit] {
+    padding: 1rem;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 5%;
+    background-color: transparent;
+    color: white;
+    border-width: 5%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 125%;
+}
+
+input[type=submit]:hover {
+    border-color: #42545c;
+    color: white;
+    background-color: #42545C;
+}
